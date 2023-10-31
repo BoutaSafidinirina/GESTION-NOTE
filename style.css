@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Scrollbar CSS*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1877f2;
+    
+}
+label{
+    font-size: 13px;
+}
+fieldset{
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+fieldset legend{
+    color: #1877f2;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.form_connexion_inscription {
+    background-color: #fff;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.form-inscrit{
+    width: 65%;
+}
+.message{
+    margin: 10px 70px 10px 70px;
+}
+.home{
+    margin:70px 100px;
+    display: flex;
+}
+.home img{
+    border-radius: 10px;
+}
+.home .message-home{
+    text-align: center;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.message-home p{
+    font-size: 35px;
+    color: #3d8021;
+}
+.message-home a{
+    font-size: 16.5px;
+    padding: 12px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color:#ffd52d;;
+}
+.form-p{
+    margin: 10px;
+}
+.form-button{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+}
+.form-create{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.form-input{
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    position: relative;
+    left: 400px ;
+    width: 300px;
+}
+
+.form-label{
+    margin: 2px;
+    position: relative;
+    font-size: 13px;
+    right: 250px;
+    width: 300px;
+}
+h1{
+    font-size: 20px;
+    color: green;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+.form-list div{
+    padding-top: 15px;
+}
+div.btAjoutEtu,div.button,div.monbouton{
+	float:right;
+}
+
+.message_error {
+    color: red;
+    font-size: 14px;
+}
+.form_connexion_inscription  label {
+    margin: 2px;
+    position: relative;
+    font-size: 13px;
+    right: 200px;
+    width: 100px;
+}
+
+.form_connexion_inscription .row{
+    padding: 5px;
+    display: flex;
+}
+.row-list{
+    display: flex;
+    margin-left: 50px;
+}
+.row-list .form-list-right{
+    margin-left: 100px;
+}
+.row .right{
+    margin-left:80px;
+}
+
+.form_connexion {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.form_connexion .message_error {
+    margin-bottom: 15px;
+    color: red;
+    font-size: 14px;
+    float: left;
+}
+.form_connexion label {
+    margin: 2px 0;
+    font-size: 13px;
+}
+.form_connexion input {
+    padding: 5px;
+    outline: 0;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+
+.form_connexion input[type='submit']{
+    margin-top: 20px;
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+}
+.form_connexion .link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form_connexion_inscription input {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    position: relative;
+    left: 170px;
+    width: 200px;
+}
+.form_connexion_inscription p {
+    padding: 5px;
+}
+
+.form_connexion_inscription input[type='submit'],.form_connexion input[type='submit']{
+    margin-top: 20px;
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    left: 0;
+    width: 100%;
+}
+.form_connexion_inscription .link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.link a {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: 0;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+
+.panel {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 95%;
+}
+.button-email {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    color: #1877f2;
+}
+.button-menu{
+    font-size: 13px;
+    display: flex;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-menu .active{
+    padding: 5px 20px;
+    color: #1877f2;
+    background-color: #c5c1c1;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.button-menu a{
+    padding: 5px 20px;
+    color: #1877f2;
+    text-decoration: 0;
+    border-radius: 6px;
+}
+.button-menu a:hover{
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #1877f2;
+    font-size: 13px;
+    text-decoration: 0;
+    border-radius: 6px;
+}
+
+.Deconnexion_btn {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #1877f2;
+    font-size: 13px;
+    text-decoration: 0;
+    border-radius: 6px;
+}
+.panel-body{
+    height: 450px;
+    min-width: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 5px 10px;
+    border-top: 1px solid #999;
+}
+.panel-body .right{
+    width: 100%;
+    resize: none;
+    border-radius: 6px;
+    outline: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.send_message input[type='submit']{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+}
+.message_inscription {
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0 0 10px 0 rgba(53, 53, 53, 0.1);
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color: #1877f2;
+    margin: 20px;
+    margin-left: 70px;
+}
+.form-ajout{
+    margin: 70px;
+}
+.fl-table thead th {
+    color: #ffffff;
+    background: #69d5f8;
+}
+/*Button One*/
+.button-one {
+    padding:5px 10px;
+    outline: none;
+    background-color: #7fe490;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;    
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 5px #95a5a6;
+}
+
+.button-one:hover{
+    background-color: #1877f2;
+}
+
+.button-one:active {
+    background-color: #1877f2;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(4px);
+}
+
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #9fa1a3;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+.top-table{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px 5px 70px;
+}
+.box{
+    position: relative;
+}
+
+.input {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 12px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 200px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 2.5px;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
+.send_message {
+    border-top: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 70px;
+
+}
+.send_message textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 6px;
+    outline: 0;
+    padding: 5px;
+   font-size: 13px;
+}
+.send_message input[type='submit']{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+}
